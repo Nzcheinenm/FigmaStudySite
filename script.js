@@ -16,5 +16,5 @@
 
 const div = document.querySelector('.header_button button');
 div.onclick = function() {
-    document.location='file:///C:/FigmaStudySite/html-template-part-1.html#contact';
+    document.location='index.html#contact';
 }
