@@ -24,6 +24,7 @@ header ul {
 header a {
   text-decoration: none;
   display: block;
+  color: #22356f;
 }
 
 header .logo a {
