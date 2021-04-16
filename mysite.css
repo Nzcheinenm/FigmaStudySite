@@ -595,3 +595,45 @@ footer {
   color: #ffffff;
   line-height: 50px;
 }
+
+/* Адаптация для мобильных устройств */
+@media screen and (max-width: 900px) {
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: normal;
+  }
+
+  div.home {
+    width: 1440px;
+    height: 820px;
+  }
+
+  div.home_block {
+    margin-top: 250px;
+    padding-inline-start: 150px;
+    padding-inline-end: 0;
+    padding-right: 0;
+  }
+
+  div.home_block p {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  div.flex_block {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 1440px;
+  }
+  div.block_3 {
+    width: 1250px;
+}
+.block_4 , .block_5, .block_6, .block_7, .block_8, .block_9 {
+  width: 1350px;
+}
+
+footer {
+  width: 1290px;
+}
+}
