@@ -7,6 +7,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9;
 }
 
 header ul {
@@ -80,6 +81,8 @@ div.home {
 div.home_block {
   margin-top: 250px;
   padding-inline-start: 170px;
+  padding-inline-end: 260px;
+    padding-bottom: 90px;
 }
 
 div.home_block h2 {
@@ -109,7 +112,7 @@ div.home_block div {
   flex-grow: 1;
 }
 
-div.home .img {
+/* div.home .img {
   display: flex;
   float: right;
 }
@@ -117,6 +120,33 @@ div.home .img {
 div.home .img img {
   display: flex;
   float: right;
+} */
+
+div.image {
+  position: relative;
+}
+img#profile {
+  width: 750px;
+  height: 800px;
+  z-index: 1;
+  left: -100px;
+  top: -50px;
+  position: absolute;
+}
+img#frame {
+  width: 650px;
+  height: 630px;
+  z-index: 2;
+}
+
+div.image div#back {
+  width: 350px;
+  height: 617px;
+  top: 200px;
+  left: 300px;
+  z-index: 1;
+  position: absolute;
+  background-color: aliceblue;
 }
 
 div.home_block button {
@@ -131,7 +161,7 @@ div.home_block button {
 }
 
 div.home_block button:hover {
-    background: #31c94a;
+  background: #31c94a;
 }
 
 div.home_block a {
@@ -178,7 +208,7 @@ div.block_3 {
   display: flex;
   flex-direction: row;
   padding-inline-start: 150px;
-  margin-block-start: 50px;
+  margin-block-start: 70px;
 }
 
 div.block_3 h4 {
@@ -241,14 +271,21 @@ ul.block_4 li {
   line-height: 290px;
 }
 
+ul.block_4 li a {
+  border-top: solid 1px;
+}
+
 ul.block_4 .child_1 {
   flex-grow: 1;
   background: #ffe2de;
   font-family: Larsseit;
   font-size: 32px;
   letter-spacing: -0.006em;
-
   color: #ffffff;
+}
+
+ul.block_4 .child_1 text {
+  border: 2px solid red;
 }
 ul.block_4 .child_2 {
   flex-grow: 1;
@@ -307,9 +344,16 @@ div.block_6 ul li {
   text-align: center;
   line-height: 350px;
 }
+
+div.block_6 ul li a {
+  border-top: 1px solid white; 
+  padding: 15px; 
+}
+
 div.block_6 ul li::marker {
   color: #e9b730;
 }
+
 div.block_6 .child_1 {
   background: #22356f;
   font-family: Larsseit;
@@ -362,9 +406,10 @@ div.block_7 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-inline-start: 0;
-  background-color: white;
+  /* padding-inline-start: 0; */
+  /* background-color: white; */
   margin-inline-start: 60px;
+  margin-block-end: 60px;
 }
 
 div.block_7 div {
@@ -506,6 +551,14 @@ div.block_10 div.child_1 {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 80px;
+}
+
+div.block_10 div.child_1 div {
+    margin-inline-start: 40px;
+}
+
+div.block_10 div.child_1 div:nth-child(1), div.block_10 div.child_1 div:nth-child(2) {
+  border-right: 0.2px inset;
 }
 
 div.block_10 div.child_1 h3 {
