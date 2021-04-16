@@ -82,7 +82,7 @@ div.home_block {
   margin-top: 250px;
   padding-inline-start: 170px;
   padding-inline-end: 260px;
-    padding-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 div.home_block h2 {
@@ -140,10 +140,10 @@ img#frame {
 }
 
 div.image div#back {
-  width: 350px;
+  width: 310px;
   height: 617px;
   top: 200px;
-  left: 300px;
+  left: 340px;
   z-index: 1;
   position: absolute;
   background-color: aliceblue;
@@ -346,8 +346,8 @@ div.block_6 ul li {
 }
 
 div.block_6 ul li a {
-  border-top: 1px solid white; 
-  padding: 15px; 
+  border-top: 1px solid white;
+  padding: 15px;
 }
 
 div.block_6 ul li::marker {
@@ -554,10 +554,11 @@ div.block_10 div.child_1 {
 }
 
 div.block_10 div.child_1 div {
-    margin-inline-start: 40px;
+  margin-inline-start: 40px;
 }
 
-div.block_10 div.child_1 div:nth-child(1), div.block_10 div.child_1 div:nth-child(2) {
+div.block_10 div.child_1 div:nth-child(1),
+div.block_10 div.child_1 div:nth-child(2) {
   border-right: 0.2px inset;
 }
 
