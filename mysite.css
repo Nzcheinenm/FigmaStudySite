@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Larsseit;
 }
 
 header {
@@ -14,7 +15,6 @@ header ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  font-family: Larsseit;
   font-size: 14px;
   color: #22356f;
   flex-grow: 1;
@@ -40,7 +40,6 @@ header ul li {
 }
 
 .logo {
-  font-family: Larsseit;
   font-size: 24px;
   letter-spacing: -0.035em;
   flex-grow: 20;
@@ -70,7 +69,7 @@ header ul li {
   background: #31c94a;
 }
 
-div.home {
+.home {
   left: 0px;
   top: 0px;
   background: #f4f9e2;
@@ -78,54 +77,41 @@ div.home {
   flex-direction: row;
 }
 
-div.home_block {
+.home_block {
   margin-top: 250px;
   padding-inline-start: 170px;
   padding-inline-end: 260px;
   padding-bottom: 90px;
 }
 
-div.home_block h2 {
-  font-family: Larsseit;
+.home_block h2 {
   font-size: 48px;
   line-height: 53px;
   letter-spacing: -0.035em;
   color: #22356f;
 }
 
-div.home_block h3 {
-  font-family: Larsseit;
+.home_block h3 {
   font-size: 24px;
   line-height: 27px;
   letter-spacing: -0.035em;
   color: #62d0df;
 }
 
-div.home_block p {
-  font-family: Larsseit;
+.home_block p {
   font-size: 24px;
   line-height: 42px;
   color: #22356f;
 }
-div.home_block div {
+.home_block div {
   display: flex;
   flex-grow: 1;
 }
 
-/* div.home .img {
-  display: flex;
-  float: right;
-}
-
-div.home .img img {
-  display: flex;
-  float: right;
-} */
-
-div.image {
+.image {
   position: relative;
 }
-img#profile {
+.image__profile {
   width: 750px;
   height: 800px;
   z-index: 1;
@@ -133,13 +119,13 @@ img#profile {
   top: -50px;
   position: absolute;
 }
-img#frame {
+.image__frame {
   width: 650px;
   height: 630px;
   z-index: 2;
 }
 
-div.image div#back {
+.image__back {
   width: 310px;
   height: 617px;
   top: 200px;
@@ -149,7 +135,7 @@ div.image div#back {
   background-color: aliceblue;
 }
 
-div.home_block button {
+.home_block button {
   background: #f9b640;
   border: none;
   color: white;
@@ -160,12 +146,11 @@ div.home_block button {
   font-size: 16px;
 }
 
-div.home_block button:hover {
+.home_block button:hover {
   background: #31c94a;
 }
 
-div.home_block a {
-  font-family: Larsseit;
+.home_block a {
   font-size: 16px;
   line-height: 23px;
   display: inline-flex;
@@ -175,7 +160,7 @@ div.home_block a {
   padding-left: 30px;
 }
 
-div.block_2 div.text {
+.block_2__text {
   background: #62d0df;
   flex-grow: 7000;
   padding-inline-start: 170px;
@@ -183,16 +168,14 @@ div.block_2 div.text {
   height: 404px;
 }
 
-div.block_2 div.text h3 {
-  font-family: Larsseit;
+.block_2__text h3 {
   font-size: 36px;
   line-height: 27px;
   letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_2 div.text p {
-  font-family: Larsseit;
+.block_2__text p {
   line-height: 35px;
   color: #ffffff;
   width: 555px;
@@ -200,19 +183,18 @@ div.block_2 div.text p {
   left: 179px;
 }
 
-div.block_2 div.img {
+.block_2__img {
   flex-grow: 1;
 }
 
-div.block_3 {
+.block_3 {
   display: flex;
   flex-direction: row;
   padding-inline-start: 150px;
   margin-block-start: 70px;
 }
 
-div.block_3 h4 {
-  font-family: Larsseit;
+.block_3 h4 {
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.06em;
@@ -221,13 +203,12 @@ div.block_3 h4 {
   flex-grow: 1;
 }
 
-div.block_3 div {
+.block_3 div {
   flex-grow: 2;
   text-align: left;
 }
 
-div.block_3 div p {
-  font-family: Larsseit;
+.block_3 div p {
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.005em;
@@ -239,8 +220,7 @@ div.block_3 div p {
   left: 424px;
 }
 
-div.block_3 div h4 {
-  font-family: Larsseit;
+.block_3 div h4 {
   font-size: 16px;
   line-height: 34px;
   text-align: -webkit-center;
@@ -251,7 +231,7 @@ div.block_3 div h4 {
   padding-left: 50px;
 }
 
-ul.block_4 {
+.block_4 {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -263,69 +243,65 @@ ul.block_4 {
   margin-inline-end: 70px;
 }
 
-ul.block_4 li::marker {
+.block_4 li::marker {
   color: #e9b730;
 }
 
-ul.block_4 li {
+.block_4 li {
   line-height: 290px;
 }
 
-ul.block_4 li a {
+.block_4 li a {
   border-top: solid 1px;
 }
 
-ul.block_4 .child_1 {
+.block_4__child_1 {
   flex-grow: 1;
   background: #ffe2de;
-  font-family: Larsseit;
   font-size: 32px;
   letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-ul.block_4 .child_1 text {
+.block_4__child_1 text {
   border: 2px solid red;
 }
-ul.block_4 .child_2 {
+.block_4__child_2 {
   flex-grow: 1;
   background: #c4e769;
-  font-family: Larsseit;
   font-size: 32px;
   letter-spacing: -0.006em;
 
   color: #ffffff;
 }
-ul.block_4 .child_3 {
+.block_4__child_3 {
   flex-grow: 1;
   background: #62d0df;
-  font-family: Larsseit;
   font-size: 32px;
   letter-spacing: -0.006em;
 
   color: #ffffff;
 }
-ul.block_4 .child_4 {
+.block_4__child_4 {
   flex-grow: 1;
   background: #0052c1;
-  font-family: Larsseit;
   font-size: 32px;
   letter-spacing: -0.006em;
 
   color: #ffffff;
 }
 
-div.block_5 {
+.block_5 {
   height: 100px;
   color: white;
 }
 
-div.block_6 {
+.block_6 {
   margin-inline-start: 70px;
   margin-inline-end: 70px;
 }
 
-div.block_6 ul {
+.block_6 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -334,85 +310,67 @@ div.block_6 ul {
   list-style-position: inside;
 }
 
-div.block_6 ul li {
+.block_6 ul li {
   flex-wrap: wrap;
   height: 480px;
   width: 480px;
   left: 0px;
-  background: #22356f;
+  letter-spacing: -0.006em;
+  font-size: 32px;
   flex: 480px;
   text-align: center;
   line-height: 350px;
 }
 
-div.block_6 ul li a {
+.block_6 ul li a {
   border-top: 1px solid white;
   padding: 15px;
 }
 
-div.block_6 ul li::marker {
+.block_6 ul li::marker {
   color: #e9b730;
 }
 
-div.block_6 .child_1 {
+.block_6__child_1 {
   background: #22356f;
-  font-family: Larsseit;
-  font-size: 32px;
-  letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_6 .child_2 {
+.block_6__child_2 {
   background: #0052c1;
-  font-family: Larsseit;
-  font-size: 32px;
-  letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_6 .child_3 {
+.block_6__child_3 {
   background-image: url("img/joanna-kosinska-340748.png");
-  font-family: Larsseit;
-  font-size: 32px;
-  letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_6 .child_4 {
+.block_6__child_4 {
   background: #62d0df;
-  font-family: Larsseit;
-  font-size: 32px;
-  letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_6 .child_5 {
+.block_6__child_5 {
   background: #dee1ff;
-  font-family: Larsseit;
-  font-size: 32px;
-  letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_6 .child_6 {
+.block_6__child_6 {
   background: #8f00ff;
-  font-family: Larsseit;
-  font-size: 32px;
   letter-spacing: -0.006em;
   color: #ffffff;
 }
 
-div.block_7 {
+.block_7 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* padding-inline-start: 0; */
-  /* background-color: white; */
   margin-inline-start: 60px;
   margin-block-end: 60px;
 }
 
-div.block_7 div {
+.block_7 div {
   flex-wrap: wrap;
   height: 240px;
   left: 0px;
@@ -423,8 +381,7 @@ div.block_7 div {
   margin-left: 70px;
 }
 
-div.block_7 div p {
-  font-family: Larsseit;
+.block_7 div p {
   font-size: 16px;
   line-height: 25px;
   letter-spacing: -0.03em;
@@ -432,34 +389,31 @@ div.block_7 div p {
   color: rgba(34, 53, 111, 0.5);
 }
 
-div.block_7 div h3 {
-  font-family: Larsseit;
+.block_7 div h3 {
   font-size: 28px;
   line-height: 33px;
   letter-spacing: -0.03em;
-
   color: #22356f;
 }
 
-div.flex_block {
+.flex_block {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
 }
 
-div.block_8 div.child_1 {
+.block_8__child_1 {
   display: flex;
   flex-direction: column;
   margin-left: 150px;
   margin-right: 175px;
   flex-grow: 10;
 }
-div.block_8 img {
+.block_8 img {
   flex-grow: 1;
 }
 
-div.block_8 div.child_1 p {
-  font-family: Larsseit;
+.block_8__child_1 p {
   font-size: 36px;
   line-height: 53px;
   letter-spacing: -0.01em;
@@ -468,19 +422,17 @@ div.block_8 div.child_1 p {
   width: 600px;
 }
 
-div.block_8 div.child_1 h3.h_child_1 {
+.block_8__child_1__h {
   margin-top: 100px;
   margin-bottom: auto;
-  font-family: Larsseit;
   font-size: 16px;
   line-height: 12px;
   letter-spacing: 0.06em;
   color: #22356f;
 }
 
-div.block_8 div.child_1 h3.h_child_2 {
+.block_8__child_1__h_2 {
   margin-bottom: 100px;
-  font-family: Larsseit;
   font-size: 16px;
   line-height: 23px;
   display: flex;
@@ -489,7 +441,7 @@ div.block_8 div.child_1 h3.h_child_2 {
   color: #fab63e;
 }
 
-div.block_9 div.child_1 {
+.block_9__child_1 {
   flex-grow: 7;
   display: flex;
   flex-direction: column;
@@ -498,12 +450,11 @@ div.block_9 div.child_1 {
   background: #22356f;
 }
 
-div.block_9 img {
+.block_9 img {
   flex-grow: 1;
 }
 
-div.block_9 div.child_1 p {
-  font-family: Larsseit;
+.block_9__child_1 p {
   font-size: 36px;
   line-height: 53px;
   letter-spacing: -0.01em;
@@ -511,19 +462,17 @@ div.block_9 div.child_1 p {
   color: #ffffff;
 }
 
-div.block_9 div.child_1 h3.h_child_1 {
+.block_9__child_1__h {
   margin-top: 100px;
   margin-bottom: auto;
-  font-family: Larsseit;
   font-size: 16px;
   line-height: 12px;
   letter-spacing: 0.06em;
   color: white;
 }
 
-div.block_9 div.child_1 h3.h_child_2 {
+.block_9__child_1__h_2 {
   margin-bottom: 100px;
-  font-family: Larsseit;
   font-size: 16px;
   line-height: 23px;
   display: flex;
@@ -532,20 +481,18 @@ div.block_9 div.child_1 h3.h_child_2 {
   color: #62d0df;
 }
 
-div.block_9 div.child_1 h2 {
-  font-family: Larsseit;
+.block_9__child_1 h2 {
   font-size: 64px;
   line-height: 94px;
   letter-spacing: -0.01em;
-
   color: #ffffff;
 }
 
-div.block_9 {
+.block_9 {
   background: #22356f;
 }
 
-div.block_10 div.child_1 {
+.block_10__child_1 {
   display: flex;
   flex-direction: row;
   margin-left: 100px;
@@ -553,18 +500,17 @@ div.block_10 div.child_1 {
   margin-top: 80px;
 }
 
-div.block_10 div.child_1 div {
+.block_10__child_1 div {
   margin-inline-start: 40px;
 }
 
-div.block_10 div.child_1 div:nth-child(1),
-div.block_10 div.child_1 div:nth-child(2) {
+.block_10__child_1 div:nth-child(1),
+.block_10__child_1 div:nth-child(2) {
   border-right: 0.2px inset;
 }
 
-div.block_10 div.child_1 h3 {
+.block_10__child_1 h3 {
   margin-bottom: 70px;
-  font-family: Larsseit;
   font-size: 14px;
   line-height: 11px;
   letter-spacing: -0.006em;
@@ -572,12 +518,11 @@ div.block_10 div.child_1 h3 {
   flex-grow: 1;
 }
 
-div.block_10 div.child_1 p {
+.block_10__child_1 p {
   margin-bottom: 70px;
   width: 207px;
   height: 115px;
   flex-grow: 1;
-  font-family: Larsseit;
   font-size: 14px;
   line-height: 23px;
   letter-spacing: -0.006em;
@@ -587,7 +532,6 @@ div.block_10 div.child_1 p {
 footer {
   background: #62d0df;
   height: 50px;
-  font-family: Larsseit;
   font-size: 14px;
   line-height: 11px;
   letter-spacing: -0.006em;
@@ -628,12 +572,17 @@ footer {
   }
   div.block_3 {
     width: 1250px;
-}
-.block_4 , .block_5, .block_6, .block_7, .block_8, .block_9 {
-  width: 1350px;
-}
+  }
+  .block_4,
+  .block_5,
+  .block_6,
+  .block_7,
+  .block_8,
+  .block_9 {
+    width: 1350px;
+  }
 
-footer {
-  width: 1290px;
-}
+  footer {
+    width: 1290px;
+  }
 }
